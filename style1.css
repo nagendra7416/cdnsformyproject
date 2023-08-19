@@ -1004,3 +1004,1065 @@ nav .inner .right .links ul li .profilecard.active
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav 
+    {
+        border-bottom: none;
+    }
+    .right-inner .videos .video .video-detail h4 
+    {
+        color: #000;
+    }
+    .hiddensidebar .linkscon .links p
+    {
+        margin-bottom: 10px;
+    }
+    .watchlater .right .vs .v a 
+    {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    a 
+    {
+        text-decoration: none;
+    }
+    .video-author-img 
+    {
+        position: relative;
+    }
+    .video-author-img a 
+    {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    a 
+    {
+        cursor: pointer;
+    }
+    #notification span 
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #f00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        color: white;
+    }
+    .explores .explore .leftimg span
+    {
+        z-index: 0;
+    }
+    form button
+    {
+        cursor: pointer;
+    }
+    .main .sidebar .linkscon .links ul li .link form 
+    {
+        height: 100%;
+        cursor: pointer;
+    }
+    #videourl video
+    {
+        display: none;
+    }
+
+    #videourl 
+    {
+        border-radius: 3px;
+    }
+    .videocon .likecon .con 
+    {
+        padding: 8px 16px;
+        background: #f2f2f2;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    .videocon .left .desc:hover 
+    {
+        background: lightgray;
+    }
+    .usercomment .userinput input
+    {
+        border-bottom: 1px solid lightgray;
+    }
+    .featured .f-inner .feature-img
+    {
+        width: 400px;
+        min-width: 400px;
+    }
+    .featured .f-inner .feature-img video 
+    {
+        width: 100%;
+    }
+    .subcon .subinner .subpost .subimg 
+    {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .main-scroll .video .video-img span
+    {
+        padding: 3px 6px;
+    }
+    .explorecon .explore .leftimg
+    {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    nav .inner .left .men
+    {
+        border-radius: 50%;
+    }
+    nav .inner .left .men:hover 
+    {
+        background: whitesmoke;
+    }
+    .main .sidebar .linkscon .links
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .main .sidebar .linkscon .links ul
+    {
+        width: 95%;
+    }
+    .main .sidebar .linkscon .links ul li
+    {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .main .sidebar .linkscon .links p 
+    {
+        width: 100%;
+    }
+    .main .side .buttons ul 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .side .buttons ul li
+    {
+        width: 90%;
+        height: 90%;
+        border-radius: 8px;
+        margin-top: 5px;
+    }
+    .main .side .buttons ul li:hover 
+    {
+        background: whitesmoke;
+    }
+    nav .inner .center .search
+    {
+        border-radius: 40px;
+        overflow: hidden;
+        border: .5px solid lightgray;
+    }
+    nav .inner .center .search input
+    {
+        border: none;
+    }
+    nav .inner .center .search input:focus
+    {
+        box-shadow: none;
+    }
+    nav .inner .center .search #search
+    {
+        border: none;
+        border-left: .5px solid lightgray;
+    }
+    .videocon .likecon
+    {
+        margin: 5px 0;
+    }
+    .main-scroll .inner .video .video-img
+    {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .post-inner form 
+    {
+        width: 100%;
+    }
+    .post-inner form button
+    {
+        width: 100%;
+    }
+    nav .inner .left .menu
+    {
+        display: none;
+    }
+    nav .inner .left .men
+    {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 1312px){
+        .main .sidebar
+        {
+            display: none;
+        }
+        .main .side
+        {
+            display: block;
+        }
+        .main .main-scroll
+        {
+            width: calc(100% - 72px);
+        }
+        nav .inner .left .menu
+        {
+            display: flex;
+        }
+        nav .inner .left .men 
+        {
+            display: none;
+        }
+    }
+    @media (max-width: 617px){
+        .main .sidebar
+        {
+            display: none;
+        }
+        .main .side 
+        {
+            display: none;
+        }
+        .main .main-scroll
+        {
+            width: 100%;
+        }
+    }
+    nav .inner .left .men button
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+    }
+    nav .inner .left .men button svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .sidebar a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .sidebar label
+    {
+        text-decoration: none;
+        pointer-events: none;
+    }
+    .hiddensidebar a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .hiddensidebar label
+    {
+        text-decoration: none;
+        pointer-events: none;
+    }
+
+    .overlay 
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        visibility: hidden;
+        opacity: 0;
+    }
+    .overlay.active 
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .overlay .uploadbox
+    {
+        width: 60%;
+        min-width: 480px;
+        max-width: 800px;
+        height: auto;
+        background: white;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: relative;
+    }
+    .overlay .uploadbox .create 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, .8);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        display: none;
+    }
+    .overlay .uploadbox .create.active 
+    {
+        display: flex;
+    }
+    .overlay .uploadbox .create span 
+    {
+        width: 40px;
+        height: 40px;
+        border: 2px solid gray;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border-top-color: transparent;
+        animation: spin 1s linear infinite;
+    }
+    .overlay .uploadbox .create p 
+    {
+        color: gray;
+    }
+    @keyframes spin {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+    .overlay .uploadbox form
+    {
+        width: 100%;
+    }
+    .overlay .uploadbox .header
+    {
+        width: 100%;
+        height: 60px;
+        border-bottom: .5px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .overlay .uploadbox .header h4 
+    {
+        margin-left: 15px;
+        color: #030303;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+
+    .overlay .uploadbox .middle 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .overlay .uploadbox .middle .img 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .overlay .uploadbox .middle .img .img-preview
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: rgb(224, 223, 223);
+    }
+    .overlay .uploadbox .middle .img .img-preview img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay .uploadbox .middle .img button
+    {
+        width: 110px;
+        height: 30px;
+        position: relative;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        background: none;
+        color: dodgerblue;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .overlay .uploadbox .middle .img button input 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .overlay .uploadbox .middle .search 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 420px;
+        margin: 30px 0;
+        padding: 5px;
+        border-radius: 3px;
+        border: .5px solid lightgray;
+    }
+    .overlay .uploadbox .middle .search input 
+    {
+        width: 100%;
+        padding: 5px;
+        outline: none;
+        border: none;
+    }
+    .overlay .uploadbox .middle .search label
+    {
+        font-size: 12px;
+        color: gray;
+    }
+    .overlay .uploadbox .bottom
+    {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        border-top: .5px solid rgb(224, 223, 223);
+
+        justify-content: flex-end;
+        padding-right: 15px;
+    }
+    .overlay .uploadbox .bottom button
+    {
+        padding: 10px 20px;
+        border: none;
+        background: dodgerblue;
+        color: white;
+        border-radius: 3px;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .overlay .uploadbox .bottom a
+    {
+        padding: 8px 20px;
+        border: none;
+        background: rgb(224, 223, 223);
+        color: black;
+        border-radius: 3px;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .overlay .uploadbox .middle .note 
+    {
+        margin: 10px 0;
+    }
+    .overlay .uploadbox .middle .note p 
+    {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    #id_channeluser
+    {
+        display: none;
+    }
+    #id_id 
+    {
+        display: none;
+    }
+    nav .center form 
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+    .sidebar .links ul li a 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+    .channelcon 
+    {
+        width: 100%;
+        height: calc(100% - 0px);
+    }
+
+
+    .channelcon .channel-outer
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+
+        /* padding: 0 20px; */
+    }
+    .channelcon .channel-outer .channel-inner 
+    {
+        width: 100%;
+        max-width: 1150px;
+    }
+    .channelcon .channel-outer .channel-layer
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+    }
+    .channel-layer .channel-header
+    {
+        width: 100%;
+        max-width: 1150px;
+        height: 110px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 20px;
+    }
+    .channel-header .left
+    {
+        display: flex;
+        align-items: center;
+    }
+    .channel-header .left .channel-img  
+    {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .channel-header .left .channel-img img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .channel-header .left .channel-name h4
+    {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        word-break: break-word;
+        max-height: 32px;
+        overflow: hidden;
+    }
+    .channel-header .left .channel-name label 
+    {
+        color: #606060;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        max-height: 10px;
+        overflow: hidden;
+    }
+    .channel-header .right button
+    {
+        background: #000;
+        color: #fff;
+        padding: 10px 16px;
+        border-radius: 2px;
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: .5px;
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .channel-header .right #subscribed
+    {
+        background: lightgray;
+        color: gray;
+    }
+    .channel-layer .buttons
+    {
+        width: 100%;
+        max-width: 1150px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        background: white;
+        padding: 0 20px;
+    }
+    .channel-layer .buttons::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+    }
+    .channel-layer .buttons button
+    {
+        height: 100%;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+    }
+    .channel-layer .buttons button.active 
+    {
+        border-bottom: 2px solid gray;
+    }
+    .channel-layer .buttons button a 
+    {
+        padding: 0px 32px;
+        text-transform: uppercase;
+        color: #606060;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: .5px;
+    }
+
+
+
+    .channel-inner
+    {
+        padding: 0 20px;
+    }
+    .channel-inner .posts 
+    {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .channel-inner .posts .post-inner 
+    {
+        width: 100%;
+    }
+    .channel-inner .posts .post-inner
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        grid-template-rows: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 15px;
+    }
+
+
+
+    .channel-inner .featured
+    {
+        width: 100%;
+        background: ;
+        margin-top: 20px;
+    }
+    .channel-inner .featured .f-inner 
+    {
+        width: 100%;
+        max-width: 700px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .featured .f-inner .feature-img
+    {
+        width: 350px;
+        min-width: 350px;
+        height: auto;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    .featured .f-inner .feature-img img 
+    {
+        width: 100%;
+    }
+    .featured .f-inner .feature-detail
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .featured .f-inner .feature-detail h4 
+    {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        max-height: 46px;
+        overflow: hidden;
+    }
+    .featured .f-inner .feature-detail a 
+    {
+        font-size: 13px;
+        color: gray;
+        line-height: 22px;
+        text-decoration: none;
+    }
+    .featured .f-inner .feature-detail span 
+    {
+        font-size: 12px;
+        color: gray;
+    }
+
+
+    .posts p 
+    {
+        margin: 20px 0;
+        color: #030303;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        max-height: 22px;
+        overflow: hidden;
+    }
+
+    .channel-inner .posts .post-inner .post 
+    {
+        width: 100%;
+    }
+    .post-inner .post img 
+    {
+        width: 100%;
+    }
+    .post .post-img 
+    {
+        display: flex;
+        align-items: center;
+    }
+    .explore .leftimg 
+    {
+        display: flex;
+        align-items: center;
+    }
+    .watchlater .topimg 
+    {
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .subpost .subimg 
+    {
+        display: flex;
+        align-items: center;
+    }
+    .video .video-img 
+    {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .post-inner .post .post-detail
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .post-inner .post .post-detail h3 
+    {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        max-height: 40px;
+        overflow: hidden;
+    }
+    .post-inner .post .post-detail a 
+    {
+        color: #606060;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        text-decoration: none;
+        max-height: 20px;
+        margin-top: 5px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .post-inner .post .post-detail span
+    {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #606060;
+    }
+
+    .video-author-img
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-author-img img 
+    {
+    }
+    .video-author-img a 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .channel-layer .buttons button
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .channel-layer .buttons button a 
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .channel-header .right 
+    {
+        display: flex;
+        align-items: center;
+    }
+    .channel-header .right svg 
+    {
+        width: 1.8em;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .side .buttons ul li .but button a label 
+    {
+        cursor: pointer;
+    }
+
+    .side .buttons ul li.active 
+    {
+        background: whitesmoke;
+    }
+
+
+        
+    .notificationbox
+    {
+        position: absolute;
+        top: 38px;
+        right: 5px;
+        width: 480px;
+        height: auto;
+        background: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 3px;
+        overflow: hidden;
+        border: .5px solid lightgray;
+        display: none;
+        z-index: 1000;
+    }
+    .notificationbox.active 
+    {
+        display: flex;
+        z-index: 1000;
+    }
+    .notificationbox .head 
+    {
+        width: 100%;
+        height: 50px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: .5px solid lightgray;
+    }
+    .notificationbox .head label 
+    {
+        margin-left: 10px;
+    }
+    .notificationbox .head button
+    {
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+    }
+    .notificationbox .head button svg 
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .notificationbox .middle 
+    {
+        width: 100%;
+        height: 500px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 15px;
+    }
+    .notificationbox .middle::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    .notificationbox .middle a 
+    {
+        width: 100%;
+    }
+    .notificationbox .middle .notif 
+    {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; 
+        padding-top: 15px; 
+    }
+    .notificationbox .middle .notif .notifimg 
+    {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+        margin-left: 15px;
+        margin-right: 16px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .notificationbox .middle .notif .notifimg img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .notificationbox button
+    {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .notificationbox .middle a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .notificationbox .middle .postimg
+    {
+        width: 120px;
+        min-width: 120px;
+        height: 70px;
+        margin-left: 5px;
+        margin-right: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .notificationbox .middle .detail
+    {
+        text-align: left;
+    }
+    .notificationbox .middle .detail p 
+    {
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        max-height: 120px;
+        overflow: hidden;
+        text-align: left;
+    }
+    .notificationbox .middle .detail label 
+    {
+        color: #606060;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .hiddensidebar .linkscon .links ul li form 
+    {
+        height: 100%;
+    }
+    .videocon .likecon .con label
+    {
+        cursor: pointer;
+    }
+
+    .post-detail h3 
+    {
+        color: black;
+    }
