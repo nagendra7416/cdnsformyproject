@@ -767,7 +767,7 @@ nav .inner .right .links ul li .profilecard.active
     height: 100vh;
     background: white;
     z-index: 1000000;
-    transform: translateX(-250px);
+    transform: translateX(250px);
     transition: .3s;
 }
 .hiddensidebar.active
