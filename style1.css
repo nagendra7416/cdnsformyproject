@@ -768,12 +768,12 @@ nav .inner .right .links ul li .profilecard.active
     background: white;
     z-index: 1000000;
     transform: translateX(250px);
-    transition: .3s;
+    transition: .2s;
 }
 .hiddensidebar.active
 {
     transform: translateX(0px);
-    transition: .3s;
+    transition: .2s;
 }
 #closebtn
 {
