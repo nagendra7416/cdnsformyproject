@@ -320,10 +320,3 @@ function deletecommentfun(element){
         console.log(err);
     })
 }
-
-    
-
-    var timeago = document.querySelectorAll('#timeago');
-    for(let i=0; i<timeago.length; i++){
-        timeago[i].innerHTML = humanized_time_span(timeago[i].innerHTML);
-    }
