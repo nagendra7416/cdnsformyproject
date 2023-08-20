@@ -101,6 +101,7 @@ nav .inner .center .search
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 nav .inner .center .search input  
 {
