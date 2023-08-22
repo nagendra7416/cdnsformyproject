@@ -1,10 +1,4 @@
-const profilebtn = document.getElementById('profilebtn');
-    const profilecard = document.querySelector('.profilecard');  
-    if(profilebtn){
-        profilebtn.addEventListener('click', () => {
-            profilecard.classList.toggle('active');
-        })
-    }
+
 
     var channelbtn = document.querySelector('#channelbtn');
     var overlaybox = document.querySelector('.overlay');
