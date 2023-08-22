@@ -16,6 +16,7 @@ const overlayclose = document.getElementById('closebtn');
 
 
 	menbtn.addEventListener('click', function(){
+		console.log('clicked');
 		overlay.classList.toggle('active');
 		hiddenclose.classList.toggle('active');
 		overlayclose.classList.toggle('active');
