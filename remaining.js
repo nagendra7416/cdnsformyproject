@@ -200,13 +200,6 @@
     }
     some();
 
-    var notificationbtn = document.getElementById('notification');
-    var notifbox = document.querySelector('.notificationbox');
-    
-    notificationbtn.addEventListener('click', function(){
-        notifbox.classList.toggle('active');
-    })
-
 
     var micbtn = document.getElementById('mic');
     var input = document.querySelector('.search input');
