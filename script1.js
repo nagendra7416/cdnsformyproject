@@ -14,28 +14,25 @@ const overlay = document.querySelector('.hiddensidebar');
 const hiddenclose = document.getElementById('hiddensidebarclose');
 const overlayclose = document.getElementById('closebtn');
 
-if(menbtn){
+
 	menbtn.addEventListener('click', function(){
 		overlay.classList.toggle('active');
 		hiddenclose.classList.toggle('active');
 		overlayclose.classList.toggle('active');
 	})
-}
 
-if(hiddenclose){
+
 	hiddenclose.addEventListener('click', function(){
 		overlay.classList.toggle('active');
 		overlayclose.classList.toggle('active');
 		hiddenclose.classList.toggle('active');
 	})
-}
-if(overlayclose){
+
 	overlayclose.addEventListener('click', function(){
 		overlay.classList.toggle('active');
 		overlayclose.classList.toggle('active');
 		hiddenclose.classList.toggle('active');
 	})
-}
 
 
     var notificationbtn = document.getElementById('notification');
