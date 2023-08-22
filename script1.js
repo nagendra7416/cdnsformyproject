@@ -37,14 +37,3 @@ if(overlayclose){
 	})
 }
 
-
-
-
-const profilebtn = document.getElementById('profilebtn');
-const profilecard = document.querySelector('.profilecard');
-
-
-profilebtn.addEventListener('click', () => {
-	profilecard.classList.toggle('active');
-})
-
