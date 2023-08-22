@@ -37,3 +37,17 @@ if(overlayclose){
 	})
 }
 
+
+    var notificationbtn = document.getElementById('notification');
+    var notifbox = document.querySelector('.notificationbox');
+    var profilebtn = document.getElementById('profilebtn');
+    var profilecard = document.querySelector('.profilecard');  
+    if(profilebtn){
+        profilebtn.addEventListener('click', () => {
+            profilecard.classList.toggle('active');
+		if(notifbox.classList.contains('active')){
+		     notifbox.classList.remove('active');
+		}
+        })
+    }
+
