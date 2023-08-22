@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
 
-const menbtn = document.querySelector('.menu button');
+const menbtn = document.querySelector('.nav .inner .left .menu button');
 const overlay = document.querySelector('.hiddensidebar');
 const hiddenclose = document.getElementById('hiddensidebarclose');
 const overlayclose = document.getElementById('closebtn');
